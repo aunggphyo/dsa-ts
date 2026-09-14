@@ -27,7 +27,7 @@
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false,
 
-    // import alias, eg. import {something} from @/shared.ts
+    // import alias, eg. import {something} from @/_shared.ts
     "paths": {
       "@/*": ["./src/*"]
     }

@@ -1,4 +1,4 @@
-import { SearchAlgorithm } from "./_shared";
+import { SearchAlgorithm } from "./shared";
 
 /**
  * Binary Search - Searching Algorithms
