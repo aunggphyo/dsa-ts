@@ -1,0 +1,19 @@
+{
+  "name": "dsa-with-ts",
+  "private": true,
+  "type": "module",
+  "module": "index.ts",
+  "scripts": {
+    "test:start": "bun test --parallel",
+    "test:watch": "bun test --watch --parallel",
+    "fmt:check": "oxfmt --check",
+    "fmt:write": "oxfmt --write"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "oxfmt": "^0.67.0"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}
