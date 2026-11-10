@@ -1,5 +1,4 @@
 import { beforeEach, describe, expect, test } from "bun:test";
-
 import { MergeSort } from "./merge-sort";
 
 describe("MergeSort", () => {

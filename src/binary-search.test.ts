@@ -1,5 +1,4 @@
 import { beforeEach, describe, expect, test } from "bun:test";
-
 import { BinarySearch } from "./binary-search";
 
 describe("BinarySearch", () => {

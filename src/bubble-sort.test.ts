@@ -1,5 +1,4 @@
 import { beforeEach, describe, expect, test } from "bun:test";
-
 import { BubbleSort } from "./bubble-sort";
 
 describe("BubbleSort", () => {

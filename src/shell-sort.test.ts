@@ -1,5 +1,4 @@
 import { beforeEach, describe, expect, test } from "bun:test";
-
 import { ShellSort } from "./shell-sort";
 
 describe("ShellSort", () => {
