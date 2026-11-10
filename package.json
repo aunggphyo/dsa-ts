@@ -5,13 +5,10 @@
   "module": "index.ts",
   "scripts": {
     "test:start": "bun test --parallel",
-    "test:watch": "bun test --watch --parallel",
-    "fmt:check": "oxfmt --check",
-    "fmt:write": "oxfmt --write"
+    "test:watch": "bun test --watch --parallel"
   },
   "devDependencies": {
-    "@types/bun": "latest",
-    "oxfmt": "^0.67.0"
+    "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^7"

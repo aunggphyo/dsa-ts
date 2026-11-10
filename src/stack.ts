@@ -11,12 +11,10 @@ import { IStack } from "./shared";
  *
  * @template T - The type of elements held in the stack.
  *
- * Methods:
- *   push(item)  – Add an element to the top.           Time: O(1)  Space: O(1)
- *   pop()       – Remove and return the top element.   Time: O(1)  Space: O(1)
- *   peek()      – Return the top element without removing it. Time: O(1) Space: O(1)
- *   isEmpty()   – Return true when the stack has no elements.
- *   size        – Number of elements currently in the stack.
+ *   Methods: push(item) – Add an element to the top. Time: O(1) Space: O(1) pop() – Remove and
+ *   return the top element. Time: O(1) Space: O(1) peek() – Return the top element without removing
+ *   it. Time: O(1) Space: O(1) isEmpty() – Return true when the stack has no elements. size –
+ *   Number of elements currently in the stack.
  */
 
 interface Node<T> {

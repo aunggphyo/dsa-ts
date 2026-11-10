@@ -1,3 +1,7 @@
 [test]
 root = "src" # Only scan for tests in the src directory
 smol = true # Reduce memory usage during test runs
+
+[fmt]
+sortImports = true
+sortPackageJson = true
